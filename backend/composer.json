@@ -1,0 +1,22 @@
+{
+    "name": "architex/axis-backend",
+    "description": "Backend API for Architex Axis Management Suite",
+    "type": "project",
+    "require": {
+        "php": ">=7.4 || >=8.0",
+        "firebase/php-jwt": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "AI Developer",
+            "email": "ai@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Architex\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
